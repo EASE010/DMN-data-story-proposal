@@ -8,7 +8,7 @@ Please prepare a dataset and a memo that touches on: 1. What are the first steps
 
 ### Dallas City Hall Campaign Finance Data
 The public record could be found on [City of Dallas official website](https://campfin.dallascityhall.com/search.aspx). Set the searching time as 2026, then you'll get the full records.
-![Dataset Screenshot](Dallas Election.png)
+![Dataset Screenshot](../DallasElection.png)
 
 ### Steps to Assess Strength and Weaknesses
 - I will get an overall understanding of the dataset first. I will read the column definitions carefully, and pull out some rows to see if they align with the definition, and whether each row reflects an individual contribution, credit, or other transaction type and how amounts should be interpreted. I will also try to download available files to see what format is used here. I aim to understand what each record represents and how reliable the fields are for analysis.
