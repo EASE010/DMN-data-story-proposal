@@ -28,8 +28,12 @@ _This document is created by Levi Jiang in February 2026 for the reference of Th
 
 
 ## Task
-A beat reporter provides a list of Dallas city council members and the campaign finance data. The reporter does not have a clear pitch or idea, and is essentially on a “fishing expedition.” City council members: Eric Johnson, Chad West, Jesse Moreno, Zarin Gracey, Maxie Johnson, Jaime Resendez, Laura Cadena, Adam Bazaldua, Lorie Blair, Paula Blackmon, Kathy Stewart, William Roth or Bill Roth, Cara Mendelsohn, Gay Donnell Willis, Paul Ridley. 
-Please prepare a memo that touches on: 1. What are the first steps you would take to assess the dataset’s strength and weaknesses? 2. What are the strengths and weaknesses of this dataset? 3. What are some possible angles/potential data stories you would pitch based on your initial assessment?
+A beat reporter needs a list of Dallas city council members and the campaign finance data. The reporter does not have a clear pitch or idea, and is essentially on a “fishing expedition.” City council members: Eric Johnson, Chad West, Jesse Moreno, Zarin Gracey, Maxie Johnson, Jaime Resendez, Laura Cadena, Adam Bazaldua, Lorie Blair, Paula Blackmon, Kathy Stewart, William Roth or Bill Roth, Cara Mendelsohn, Gay Donnell Willis, Paul Ridley. 
+Please prepare a dataset and a memo that touches on: 1. What are the first steps you would take to assess the dataset’s strength and weaknesses? 2. What are the strengths and weaknesses of this dataset? 3. What are some possible angles/potential data stories you would pitch based on your initial assessment?
+
+### Dallas City Hall Campaign Finance Data
+The public record could be found on [City of Dallas official website](https://campfin.dallascityhall.com/search.aspx). Set the searching time as 2026, then you'll get the full records.
+
 
 ### Steps to Assess Strength and Weaknesses
 - I will get an overall understanding of the dataset first. I will read the column definitions carefully, and pull out some rows to see if they align with the definition, and whether each row reflects an individual contribution, credit, or other transaction type and how amounts should be interpreted. I will also try to download available files to see what format is used here. I aim to understand what each record represents and how reliable the fields are for analysis.
