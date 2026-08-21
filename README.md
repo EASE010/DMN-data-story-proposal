@@ -1,5 +1,4 @@
-# DMN-data-reporter-assessment
-_This document is created by Levi Jiang in February 2026 for the exclusive reference of The Dallas Morning News' data team recruitment process._
+_This document is created by Levi Jiang in February 2026 for the reference of The Dallas Morning News' data story pitch_
 
 ## Task 1
 ### Questions for the Reporter
