@@ -1,32 +1,5 @@
 _This document is created by Levi Jiang in February 2026 for the reference of The Dallas Morning News' data story pitch_
 
-## Task 1
-### Questions for the Reporter
-- The records available for inquiry on the website are cases scheduled for hearing between 2023 and 2025. Are you seeking cases that occurred during this period or cases that were scheduled for hearing?
-- What story you're going to tell? What are you hoping to find from these cases? Are you looking for patterns or trends (race, sex, charges, regions)?
-- Is there a specific concern (racial disparities, backlog, certain offenses, court delays)?
-- From an ethical perspective, we should discuss the use of personally identifiable information, like names and addresses, how race data would be processed, and whether any records may involve sensitive or sealed cases.
-
-### Three Technical Checks
-- Inspect the page to see how the table is loaded, checking whether the data exists directly in an HTML div, is retrieved through background API, or is rendered dynamically via JavaScript.
-- Check the site’s robots.txt file or other terms of use to determine whether automated scraping is permitted and whether specific sections are restricted.
-- Check the page load speed and if there's blocking after repeated requests. It can help determine whether we can use auto scrapping to pull all the data at once or need some throttling.
-
-### Ethical or Legal Considerations
-- Is this dataset intended for public use? Does the site restrict automated access?
-- Name, race, sex and home address are all sensitive personal data. Will this expose people to harm or harassment?
-- Are we considering the invisible enforcement patterns, policing bias and socioeconomic disparities behind all these data?
-- For some special cases, like domestic violence and minors involved cases, how should we make sure we're not invading privacy and protect the vulnerable people?
-
-### Alternative Method
-- Look for other download options (downloadable CSV/Excel/PDF) or APIs
-- Check some other source website like Texas Open Data Portal
-- Contact some government agencies like the court administration office for help
-- File a public records request
-- (If AI is permitted in our newsroom for data collecting) Use screen recording or screenshot to capture entire webpages, then use AI to transform them into datasets
-- Ask some researchers and legal nonprofits for available materials
-
-
 ## Task
 A beat reporter needs a list of Dallas city council members and the campaign finance data. The reporter does not have a clear pitch or idea, and is essentially on a “fishing expedition.” City council members: Eric Johnson, Chad West, Jesse Moreno, Zarin Gracey, Maxie Johnson, Jaime Resendez, Laura Cadena, Adam Bazaldua, Lorie Blair, Paula Blackmon, Kathy Stewart, William Roth or Bill Roth, Cara Mendelsohn, Gay Donnell Willis, Paul Ridley. 
 Please prepare a dataset and a memo that touches on: 1. What are the first steps you would take to assess the dataset’s strength and weaknesses? 2. What are the strengths and weaknesses of this dataset? 3. What are some possible angles/potential data stories you would pitch based on your initial assessment?
