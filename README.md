@@ -26,23 +26,11 @@ _This document is created by Levi Jiang in February 2026 for the reference of Th
 - (If AI is permitted in our newsroom for data collecting) Use screen recording or screenshot to capture entire webpages, then use AI to transform them into datasets
 - Ask some researchers and legal nonprofits for available materials
 
-### Scrapping Tools and Methods
-- If the table loads via background requests, usually we can find an endpoint returning HTML or JSON. I can use Python `requests` to replicate these calls across the desired years and months, and clean them up with `pandas`.
-- Pseudo code:
-```
-for year in [2023, 2024, 2025]:
-    for month in all_months:
-        request data for Dallas County Grand Jury Cases Scheduled Report
-        parse table rows
-        clean column names
-        append to our dataset
 
-standardize dates and text fields
-check duplicates and errors
-export to CSV
-```
+## Task
+A beat reporter provides a list of Dallas city council members and the campaign finance data. The reporter does not have a clear pitch or idea, and is essentially on a “fishing expedition.” City council members: Eric Johnson, Chad West, Jesse Moreno, Zarin Gracey, Maxie Johnson, Jaime Resendez, Laura Cadena, Adam Bazaldua, Lorie Blair, Paula Blackmon, Kathy Stewart, William Roth or Bill Roth, Cara Mendelsohn, Gay Donnell Willis, Paul Ridley. 
+Please prepare a memo that touches on: 1. What are the first steps you would take to assess the dataset’s strength and weaknesses? 2. What are the strengths and weaknesses of this dataset? 3. What are some possible angles/potential data stories you would pitch based on your initial assessment?
 
-## Task 2
 ### Steps to Assess Strength and Weaknesses
 - I will get an overall understanding of the dataset first. I will read the column definitions carefully, and pull out some rows to see if they align with the definition, and whether each row reflects an individual contribution, credit, or other transaction type and how amounts should be interpreted. I will also try to download available files to see what format is used here. I aim to understand what each record represents and how reliable the fields are for analysis.
 - The second step is to assess completeness and coverage by checking date ranges, records by candidate, and the prevalence of missing values in key fields such as amount, donor name, business name, and address. This will identify temporal gaps, underreported candidates, or structural bias in the data.
@@ -50,7 +38,7 @@ export to CSV
 - Clarify the dataset’s scope and limitations, such as whether it includes only itemized contributions, how non-cash transactions are recorded, and what reporting thresholds may affect the coverage.
 
 ### Strength
-- **Data Transparency and Credibility**: IIn each record, there's a direct link to original PDFs so reporters can pull context and verify the data easily. Readers also can benefit from the accessibility of primary sources.
+- **Data Transparency and Credibility**: In each record, there's a direct link to original PDFs so reporters can pull context and verify the data easily. Readers also can benefit from the accessibility of primary sources.
 - **Geographic Info**: With the address and geo_location info, we are able to analyze the money a candidate spent on local or out-of-state business. 
 - **Transaction-level Detail**: Each row appears to represent an individual contribution or transaction with amount, time, location, etc. We are able to track the money over time, aggregate by candidate, identify any time or location-based patterns and compare them. This is stronger than summary-level reports.
 
